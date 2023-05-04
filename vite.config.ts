@@ -49,7 +49,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     server: {
       host: "0.0.0.0",
       port: 3001,
-      open: true,
+      open: false,
       cors: true,
       proxy: {
         "/wisdom-community-admin": {
