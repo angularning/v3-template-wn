@@ -106,7 +106,7 @@ declare module 'vue' {
     HouseSafe2: typeof import('./src/components/houseSafe/houseSafe2.vue')['default']
     HouseSafe3: typeof import('./src/components/houseSafe/houseSafe3.vue')['default']
     I18n: typeof import('./src/components/i18n/index.vue')['default']
-    InfiniteScroll: typeof import('element-plus/es')['ElInfiniteScroll']
+    InfiniteScroll: typeof import('./src/components/infiniteScroll/index.vue')['default']
     KakouList: typeof import('./src/components/kakou/kakouList.vue')['default']
     LabelFormSearch: typeof import('./src/components/public/labelFormSearch.vue')['default']
     LabelsList: typeof import('./src/components/labels/labelsList.vue')['default']

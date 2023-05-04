@@ -469,13 +469,13 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: () => import("@/layouts/index.vue"),
     children: [
-      {
-        path: "user",
-        meta: {
-          title: "resource.authority.children.user",
-        },
-        component: () => import("@/views/setting/user.vue"),
-      },
+      // {
+      //   path: "user",
+      //   meta: {
+      //     title: "resource.authority.children.user",
+      //   },
+      //   component: () => import("@/views/setting/user.vue"),
+      // },
       {
         path: "role",
         meta: {
