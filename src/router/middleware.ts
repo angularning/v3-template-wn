@@ -17,6 +17,8 @@ export const online = useOnline(); //网络状态
 
 export const WHITE_LIST: string[] = [
   "/login",
+  "/main",
+  "/index",
   "/global/abnormal/404",
   "/global/abnormal/networkError",
   "/mini/banner/banner1",

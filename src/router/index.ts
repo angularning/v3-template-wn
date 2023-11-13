@@ -4,7 +4,11 @@ import { useMiddleware } from "./middleware";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    redirect: "/login",
+    redirect: "/index",
+  },
+  {
+    path: "/index",
+    component: () => import("@/views/home/Index.vue"),
   },
   {
     path: "/login",

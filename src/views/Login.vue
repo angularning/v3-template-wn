@@ -74,6 +74,7 @@ import { siteName } from "@/router/middleware";
 import { getImage } from "@/utils";
 import { authInfo, getLoginCode, login } from "@/api/user";
 import { ElMessage } from "element-plus";
+
 const userStore = useUserStore();
 const router = useRouter();
 const { proxy } = <any>getCurrentInstance();
